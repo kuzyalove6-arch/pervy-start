@@ -1,0 +1,16 @@
+import type { Sport } from './data'
+
+// Файлы размещены на Wikimedia Commons. Ссылка на страницу файла ведёт к автору и лицензии.
+export const sportMedia: Partial<Record<Sport, { src: string; source: string; moment: string; credit: string }>> = {
+  'Футбол': { src: 'https://upload.wikimedia.org/wikipedia/commons/1/1a/Football_training.webm', source: 'https://commons.wikimedia.org/wiki/File:Football_training.webm', moment: 'Движение с мячом', credit: 'Anasskoko · CC BY-SA 4.0' },
+  'Плавание': { src: 'https://upload.wikimedia.org/wikipedia/commons/1/1a/Backstroke_Underwater.webm', source: 'https://commons.wikimedia.org/wiki/File:Backstroke_Underwater.webm', moment: 'Скольжение в воде', credit: 'It is a wonderful world · CC BY-SA 4.0' },
+  'Гимнастика': { src: 'https://upload.wikimedia.org/wikipedia/commons/7/78/Afanasyeva_floor_routine_Mexican_Open_2011.webm', source: 'https://commons.wikimedia.org/wiki/File:Afanasyeva_floor_routine_Mexican_Open_2011.webm', moment: 'Движение на ковре', credit: 'jimezm · CC BY 3.0' },
+  'Баскетбол': { src: 'https://upload.wikimedia.org/wikipedia/commons/3/35/Basketball-Basic_Types_of_Dribbling.webm', source: 'https://commons.wikimedia.org/wiki/File:Basketball-Basic_Types_of_Dribbling.webm', moment: 'Ведение мяча', credit: 'Mart570 · CC BY-SA 3.0' },
+  'Танцы': { src: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Tutorial_breakdance_-_Six_Step.webm', source: 'https://commons.wikimedia.org/wiki/File:Tutorial_breakdance_-_Six_Step.webm', moment: 'Танцевальная связка', credit: 'Neil Sweeney · CC BY 3.0' },
+  'Единоборства': { src: 'https://upload.wikimedia.org/wikipedia/commons/4/44/Tai-otoshi_in_detail_by_Laszlo_Horvath_edited_0.webm', source: 'https://commons.wikimedia.org/wiki/File:Tai-otoshi_in_detail_by_Laszlo_Horvath_edited_0.webm', moment: 'Приём с партнёром', credit: 'Rodrigo / Laszlo Horvath · CC BY-SA 4.0' },
+  'Конный спорт': { src: 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Springconcours.webm', source: 'https://commons.wikimedia.org/wiki/File:Springconcours.webm', moment: 'Прыжок через препятствие', credit: 'Polygoon Hollands Nieuws · общественное достояние' },
+  'Лёгкая атлетика': { src: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/ATHLETIEK_IN_ROTTERDAM-PGM4011520.webm', source: 'https://commons.wikimedia.org/wiki/File:ATHLETIEK_IN_ROTTERDAM-PGM4011520.webm', moment: 'Бег по дорожке', credit: 'Polygoon Hollands Nieuws · общественное достояние' },
+  'Фехтование': { src: 'https://upload.wikimedia.org/wikipedia/commons/0/02/Coupe_du_Monde_juniors_Dourdan_-_22.webm', source: 'https://commons.wikimedia.org/wiki/File:Coupe_du_Monde_juniors_Dourdan_-_22.webm', moment: 'Поединок на дорожке', credit: 'Shev123 · CC0' },
+  'Настольный теннис': { src: 'https://upload.wikimedia.org/wikipedia/commons/2/2e/Table_tennis.webm', source: 'https://commons.wikimedia.org/wiki/File:Table_tennis.webm', moment: 'Быстрый розыгрыш', credit: 'Evworo · CC BY-SA 3.0' },
+  'Тяжёлая атлетика': { src: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Dragoon_Week_2025_Weightlifting_Competition_%28963715%29.webm', source: 'https://commons.wikimedia.org/wiki/File:Dragoon_Week_2025_Weightlifting_Competition_(963715).webm', moment: 'Техника подъёма', credit: 'U.S. Army / Jacob Connor · общественное достояние' },
+}

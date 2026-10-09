@@ -1,0 +1,11 @@
+node_modules
+dist
+.DS_Store
+*.local
+*.tsbuildinfo
+*.docx
+*.xlsx
+*.jfif
+Презентация_защита*.html
+Доклад_к_защите.md
+ПРЕДЛОЖЕНИЯ_ПО_САЙТУ.md
