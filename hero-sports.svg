@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 600" role="img" aria-label="Ребёнок выбирает спорт среди мяча, ракетки, гимнастической ленты и плавательных очков">
+  <defs>
+    <linearGradient id="sky" x2="1" y2="1"><stop stop-color="#eaf3e8"/><stop offset="1" stop-color="#d0e7da"/></linearGradient>
+    <linearGradient id="shirt" x2="1" y2="1"><stop stop-color="#ffb675"/><stop offset="1" stop-color="#ee815e"/></linearGradient>
+    <filter id="shade" x="-35%" y="-35%" width="170%" height="180%"><feDropShadow dy="11" stdDeviation="10" flood-color="#345a4a" flood-opacity=".16"/></filter>
+  </defs>
+  <rect width="620" height="600" rx="28" fill="url(#sky)"/>
+  <circle cx="310" cy="280" r="226" fill="#f6faf0" opacity=".64"/>
+  <circle cx="310" cy="280" r="245" fill="none" stroke="#fff" stroke-width="3" stroke-dasharray="3 13" opacity=".85"/>
+  <circle cx="310" cy="280" r="179" fill="none" stroke="#7fb399" stroke-width="2" stroke-dasharray="7 13" opacity=".7"/>
+  <path d="M0 520q150-40 316-12t304-6v98H0Z" fill="#99bea5" opacity=".5"/>
+  <!-- floating equipment arranged on the choice circle -->
+  <g filter="url(#shade)">
+    <g transform="translate(55 90)"><circle cx="60" cy="60" r="54" fill="#fff"/><circle cx="60" cy="60" r="53" fill="none" stroke="#d3ded3" stroke-width="2"/><path d="m60 29 23 16-9 28H47l-10-28Zm0-21-8 19 8 2 17-12M11 47l21 3 5-5-5-20m-6 81 19-8 2-25-25-9m96 23-18-8-26-6 9 25M66 114l-19-16 0-25" fill="#32493e"/></g>
+    <g transform="translate(435 93)"><circle cx="52" cy="52" r="51" fill="#f5dcae"/><circle cx="52" cy="52" r="43" fill="#f0a664" stroke="#af653e" stroke-width="2"/><path d="M9 52h86M52 9v86M18 27q73 24 68 54M86 23Q20 43 18 78" stroke="#a96442" stroke-width="3" fill="none"/></g>
+    <g transform="translate(27 315)"><circle cx="66" cy="64" r="61" fill="#f7e5dd"/><ellipse cx="53" cy="49" rx="27" ry="36" transform="rotate(-32 53 49)" fill="#fff" stroke="#385846" stroke-width="7"/><path d="m70 77 29 33M27 50l50 7M32 34l53 8M44 19l42 6M45 14l-2 69M60 16l-2 66" stroke="#6a9879" stroke-width="3"/><circle cx="97" cy="34" r="11" fill="#d0e686"/></g>
+    <g transform="translate(448 309)"><circle cx="59" cy="58" r="58" fill="#b8e0e8"/><path d="M14 77q18-15 36 0t36 0 19 0M14 92q18-15 36 0t36 0 19 0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round"/><path d="M20 40q12-13 30-7l10 9 9-9q19-6 30 7l-5 21q-18 10-30-2H55Q43 71 25 61Z" fill="#31758b"/><path d="M24 45q13-11 26-4l5 10q-11 13-27 4Zm72 0q-13-11-26-4L65 51q11 13 27 4Z" fill="#e9faff"/></g>
+    <g transform="translate(175 26)"><circle cx="52" cy="50" r="43" fill="#efe5f7"/><path d="M43 20q-8 31 15 32 31 0 15 28-12 12-33 0-19-17-5-32" fill="none" stroke="#b582ca" stroke-width="7" stroke-linecap="round"/><path d="m36 41-12-19m6 30-18-10m27 31-18 8" stroke="#b582ca" stroke-width="3" stroke-linecap="round"/></g>
+    <g transform="translate(348 17)"><circle cx="44" cy="44" r="38" fill="#e0ecce"/><path d="M26 17h36v40H26z" fill="#f9fcf4" stroke="#608c63" stroke-width="4"/><path d="M26 33h36M44 17v40" stroke="#a9c8a2" stroke-width="2"/><path d="m44 58-8 19m9-19 9 19" stroke="#608c63" stroke-width="4"/><circle cx="63" cy="22" r="6" fill="#eea669"/></g>
+  </g>
+  <!-- One continuous figure seen from behind, looking at the choices -->
+  <g filter="url(#shade)" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="309" cy="570" rx="105" ry="15" fill="#4d785e" opacity=".2"/>
+    <!-- legs emerge directly from the shorts; the near leg carries more weight -->
+    <path d="M279 450h32l-9 88-5 16h-37l4-22Z" fill="#edb486" stroke="#d49970" stroke-width="3"/>
+    <path d="M321 450h32l10 82 1 22h-36l-4-18Z" fill="#e7a97e" stroke="#d49970" stroke-width="3"/>
+    <path d="M264 517h35l-3 34h-37Z" fill="#fff6e9"/>
+    <path d="M326 517h35l4 34h-37Z" fill="#fff6e9"/>
+    <path d="M262 544h35l8 15q2 10-12 12h-53q-14-2-9-11l20-13Zm65 0h38l22 15q7 10-8 12h-56q-12-2-8-12Z" fill="#f9faf1" stroke="#60766b" stroke-width="4"/>
+    <path d="M238 559h65m13 0h69" stroke="#9eb9a7" stroke-width="3"/>
+    <!-- relaxed left arm, raised right arm reaching toward the basketball -->
+    <path d="M264 323q-21-2-29 25l-17 69q-3 12 8 17l17 5q10 2 14-11l17-60Z" fill="#edb486" stroke="#d49970" stroke-width="4"/>
+    <path d="M226 424q-7 9-4 20l6 15q6 9 13 5l9-11q6-10-1-17Z" fill="#edb486" stroke="#d49970" stroke-width="3"/>
+    <path d="M354 322q22-5 33 17l27 42 24-41q6-11 16-5 9 5 3 16l-29 65q-9 16-24 5l-42-45Z" fill="#edb486" stroke="#d49970" stroke-width="4"/>
+    <path d="M435 345q-2-13 3-22l12-18q5-8 10-4 4 4-1 14l11-16q6-7 10-2 3 4-3 12l-11 18q16-11 19-5 4 8-14 21l-19 18Z" fill="#edb486" stroke="#d49970" stroke-width="3"/>
+    <!-- shorts and torso overlap at the waist, so the hips and legs read as one body -->
+    <path d="M267 424q42 12 84 0l9 47-43 1-9-22-8 22-43-2Z" fill="#38645e" stroke="#2e5751" stroke-width="4"/>
+    <path d="M274 304q-28 4-28 34l14 97q48 22 99 0l13-97q-2-29-27-34l-35 13Z" fill="url(#shirt)" stroke="#d67c58" stroke-width="4"/>
+    <path d="M262 419q49 19 95 0" fill="none" stroke="#ffd2a1" stroke-width="4" opacity=".9"/>
+    <path d="M294 293v30q15 12 31 0v-30" fill="#e2a17b"/>
+    <!-- soft back-of-head silhouette avoids an uncanny facial expression -->
+    <ellipse cx="310" cy="228" rx="58" ry="72" fill="#e9ae85"/>
+    <path d="M255 235q-13-75 46-86 56-10 65 54 4 17-2 35-12-18-13-44-21 20-54 10-23-7-42 31Z" fill="#423b36"/>
+    <path d="M255 237q-12-13-4-35 3-28 23-41-11 27-4 52m83-13q17-24 3-43 25 17 13 56" fill="#423b36"/>
+    <path d="M284 275q24 15 51 0" fill="none" stroke="#d99972" stroke-width="4" opacity=".65"/>
+    <path d="M299 355q16 14 29 0" fill="none" stroke="#ffe2b2" stroke-width="5" opacity=".8"/>
+  </g>
+  <g fill="#eda274"><path d="m164 251 5 12 12 5-12 5-5 12-5-12-12-5 12-5Z"/><path d="m455 224 5 12 12 5-12 5-5 12-5-12-12-5 12-5Z"/></g>
+</svg>
