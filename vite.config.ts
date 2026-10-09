@@ -8,7 +8,7 @@ export default defineConfig(() => {
     plugins: [react()],
     build: {
       rollupOptions: {
-        input: pages ? { main: 'index.html' } : { main: 'index.html', presentation: 'Презентация_защита.html', presentation2: 'Презентация_защита_вариант_2.html' },
+        input: pages ? { main: 'index.html', presentation2: 'Презентация_защита_вариант_2.html' } : { main: 'index.html', presentation: 'Презентация_защита.html', presentation2: 'Презентация_защита_вариант_2.html' },
       },
     },
   }
