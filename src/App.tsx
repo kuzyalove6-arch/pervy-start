@@ -177,6 +177,8 @@ function App() {
             </div>
           </section>
 
+          <div className="sport-gear-band"><img src="./sport-gear.svg" alt="Разметка спортивного поля, мяч, теннисная ракетка и дорожки бассейна" /></div>
+
           <OpenTrainings />
 
           <section id="young-coaches" className="featured-section section-pad">
